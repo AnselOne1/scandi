@@ -41,10 +41,7 @@ a{
 .logo{
    display: flex;
    align-items: center;
-}
-
-span{
-    text-transform: uppercase;
+   text-transform: uppercase;
 }
 
 .menu__list li{
@@ -88,4 +85,116 @@ span{
 .top__btn:hover{
     background-color: #533738;
     color: #CC8B86;
+}
+
+.about-us{
+    background-color: #E5E5E5;
+}
+.about__title{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+    text-align: center;
+    padding: 65px 0 40px 0;
+}
+.about__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 83px;
+    padding-bottom: 21px;
+}
+.about__text{
+    width: 528px;
+    line-height: 30px;
+    margin-right: 90px;
+}
+.about__text p+p{
+    padding-top: 30px;
+}
+.about__text p+p span{
+    display: block;
+}
+
+.exp{
+    background-color: #8D7370;
+}
+.exp__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 83px;
+    margin-right: 90px;
+    padding: 85px 0 81px 0;
+}
+.exp__item p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+}
+.exp__item span{
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.works{
+    background-color: #E5E5E5;
+}
+.works__title{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #533738;
+    padding: 65px 0 40px 0;
+    text-transform: uppercase;
+}
+.works__inner{
+    display: grid;
+    grid-template-columns: 488px 691px;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.works__item-3{
+    width: 142%;
+}
+.works__item-4{
+    justify-self: flex-end;
+}
+.works__item{
+    position: relative;
+}
+.works__desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: rgba(100, 72, 69, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    color: #fff;
+    bottom: 0;
+    transition: all .5s;
+}
+.works__item:hover .works__desc{
+    opacity: 1;
+}
+.works__desc h2{
+    width: 270px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.works__desc p{
+    padding: 0 35px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
 }
