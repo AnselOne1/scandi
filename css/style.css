@@ -393,3 +393,9 @@ a{
 .adress-phone span{
     margin-left: 42px;
 }
+
+/* Стилизация якорей */
+
+#about{
+    transition: all .5s;
+}
