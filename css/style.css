@@ -378,7 +378,9 @@ a{
 .app__phone{
     margin-bottom: 31px;
 }
-
+.app__inner div+div{
+    line-height: 0;
+}
 .contacts{
     background-color: #e5e5e5;
 }
