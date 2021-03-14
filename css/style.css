@@ -75,6 +75,7 @@ a{
     font-size: 20px;
     line-height: 24px;
     cursor: pointer;
+    outline: none;
 }
 .top__btn:hover{
     background-color: #533738;
@@ -111,7 +112,7 @@ a{
     display: block;
 }
 
-.exp{
+.exp, .app{
     background-color: #8D7370;
 }
 .exp__inner{
@@ -291,14 +292,14 @@ a{
 
 .feedback__text p{
     margin-bottom: 35px;
-    margin-left: 170px;
+    margin-left: 183px;
     margin-right: 20px;
     font-weight: 400;
     line-height: 30px;
 }
 .feedback__image img{
     margin-bottom: 24px;
-    margin-right: 170px;
+    margin-right: 183px;
 }
 .feedback__image img+img{
     margin-bottom: 65px;
@@ -322,6 +323,71 @@ a{
     z-index: 5;
 }
 
+.slick-prev{
+    left: 70px;
+}
+
 .slick-next{
-    right: 0;
+    right: 70px;
+}
+
+
+.app__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.app__form{
+    margin-left: 80px;
+}
+
+.app__title{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #fff;
+    margin: 50px 0 24px 0;
+}
+
+.app__text{
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 44px;
+}
+
+::-webkit-input-placeholder{
+    color:#fff;
+}
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+.app__name, .app__phone{
+    background-color: #8D7370;
+    color: #F6EDE9;
+    border: none;
+    width: 508px;
+    font-size: 18px;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 4px;
+    outline: none;
+}
+.app__name{
+    margin-bottom: 35px;
+}
+.app__phone{
+    margin-bottom: 31px;
+}
+
+.contacts{
+    background-color: #e5e5e5;
+}
+.contacts__inner{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    padding: 37px 0;
+}
+.adress span{
+    margin-left: 42px;
 }
